@@ -1,0 +1,47 @@
+body
+{
+  font-family: 'Akaya Telivigala', cursive;
+  background-image: url("backgroud.gif");
+  background-size: 100%;
+}
+
+.header_div
+  {
+  background: #7f1dff;
+  color: white; 
+  }
+
+  .header_div p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .main_div button{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    background-color: #051d87;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  #bt:hover{
+    background-color: #792bff;
+  }
+
+  
+  .copy_right_footer {
+   position: fixed;
+   color: #051d87;
+   bottom: 0;
+   width: 100%;
+   font-size: 18px;
+   background-color: #792bff; 
+   line-height: 3;
+   text-align: center;
+   text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
